@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background: #21222A;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 30px 25px;
+}
+
+nav > img {
+    margin-right: 7px;
+}
+
+.navTitle {
+    font-weight: 700;
+    color: #61DAFB;
+    margin-right: auto;
+    font-size: 22px;
+}
+
+.navSubTitle {
+    color: #DEEBF8;
+    font-weight: 600;
+    font-size: 16px;
+}

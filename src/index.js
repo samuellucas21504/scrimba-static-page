@@ -1,17 +1,5 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import Header from "./components/Header"
-import Main from "./components/Main"
-import Footer from "./components/Footer"
-
-function App() {
-    return(
-        <>
-            <Header />
-            <Main />
-            <Footer />
-        </>
-    )
-}
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
 
 ReactDOM.render(<App />, document.getElementById("root"));
